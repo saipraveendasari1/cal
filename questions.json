@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "question": "The number of odd days in a non-leap year are:",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctIndex": 1,
+    "explanation": "A non-leap (ordinary) year has 365 days. 365 \u00f7 7 = 52 complete weeks + 1 remaining day. This remaining day is called the Odd Day. Therefore, a non-leap year has 1 odd day."
+  },
+  {
+    "id": 2,
+    "question": "How many odd days are there in 352 days?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "correctIndex": 1,
+    "explanation": "To find odd days, divide 352 by 7: 352 = (50 \u00d7 7) + 2. The remainder is 2, so there are 2 odd days."
+  },
+  {
+    "id": 3,
+    "question": "The number of odd days for the year 1996 are:",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctIndex": 2,
+    "explanation": "1996 is divisible by 4 (96 \u00f7 4 = 24), making it a Leap Year. A leap year has 366 days = (52 \u00d7 7) + 2 odd days. Thus, 1996 has 2 odd days."
+  },
+  {
+    "id": 4,
+    "question": "Which among the following year is a leap year?",
+    "options": [
+      "3000",
+      "3100",
+      "3200",
+      "3300"
+    ],
+    "correctIndex": 2,
+    "explanation": "For century years (years ending in 00), the year must be divisible by 400 to be a leap year. 3200 \u00f7 400 = 8 with remainder 0, so 3200 is a leap year. (3000, 3100, and 3300 are not divisible by 400)."
+  },
+  {
+    "id": 5,
+    "question": "What will be the next leap year after 2096?",
+    "options": [
+      "2100",
+      "2101",
+      "2104",
+      "2108"
+    ],
+    "correctIndex": 2,
+    "explanation": "2096 + 4 = 2100. However, 2100 is a century year not divisible by 400, so 2100 is NOT a leap year! The next leap year after 2096 will be 2104 (8 years later)."
+  },
+  {
+    "id": 6,
+    "question": "How many Odd days are there in 1 year 130 days?",
+    "options": [
+      "5",
+      "6",
+      "0",
+      "Cannot be determined"
+    ],
+    "correctIndex": 3,
+    "explanation": "The question does not specify whether the 1 year is an ordinary year (1 odd day) or a leap year (2 odd days). If ordinary: 1 + (130 mod 7 = 4) = 5 odd days. If leap: 2 + 4 = 6 odd days. Since it is unspecified, the answer cannot be determined."
+  },
+  {
+    "id": 7,
+    "question": "If today is a Friday, what will be the day after 100 days?",
+    "options": [
+      "Saturday",
+      "Sunday",
+      "Monday",
+      "Tuesday"
+    ],
+    "correctIndex": 1,
+    "explanation": "100 days = (14 \u00d7 7) + 2 odd days. Friday + 2 odd days = Sunday."
+  },
+  {
+    "id": 8,
+    "question": "How many odd days will be there in a century (i.e., 100 years)?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "correctIndex": 3,
+    "explanation": "100 years contains 24 leap years and 76 ordinary years (since the 100th year is not divisible by 400). Total odd days = (24 \u00d7 2) + (76 \u00d7 1) = 48 + 76 = 124 days. 124 \u00f7 7 = 17 weeks + 5 odd days."
+  },
+  {
+    "id": 9,
+    "question": "Which day of the week was 23rd July 1776?",
+    "options": [
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "correctIndex": 0,
+    "explanation": "Formula: Date (23) + Month Code for July (6) + Century Code for 1700s (4) + Year (76) + Leap Years in 76 (19) = 23 + 6 + 4 + 76 + 19 = 128. 128 \u00f7 7 leaves Remainder 2. Day Code 2 = Tuesday."
+  },
+  {
+    "id": 10,
+    "question": "Which day of the week was 11th Nov 1616?",
+    "options": [
+      "Sunday",
+      "Saturday",
+      "Thursday",
+      "None (Friday)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Formula: Date (11) + Month Code Nov (3) + Century 1600s (6) + Year (16) + Leap Years (4) = 11 + 3 + 6 + 16 + 4 = 40. 40 \u00f7 7 leaves Remainder 5. Day Code 5 = Friday! Since Friday is not among options (1), (2), (3), the answer is None."
+  },
+  {
+    "id": 11,
+    "question": "If 21st March 2000 was a Monday, what day of the week will be 21st March 2003?",
+    "options": [
+      "Tuesday",
+      "Friday",
+      "Thursday",
+      "Wednesday"
+    ],
+    "correctIndex": 2,
+    "explanation": "From 21st March 2000 to 21st March 2003 is 3 years. Since 29th Feb 2000 has already passed before 21st March, each year from 2000-2001, 2001-2002, 2002-2003 contributes 1 odd day. Total odd days = 3. Monday + 3 days = Thursday."
+  },
+  {
+    "id": 12,
+    "question": "If 5th January 2001 was a Friday, then 25th December 2001 was a:",
+    "options": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "correctIndex": 1,
+    "explanation": "In an ordinary year, January code is 0 and December code is 5. 5th Jan = 5 + 0 = 5 (Friday). For 25th Dec: 25 + 5 = 30. 30 mod 7 = 2. Code 2 is Tuesday."
+  },
+  {
+    "id": 13,
+    "question": "If 8th February 1995 was a Wednesday, then 8th February 1994 was on which day?",
+    "options": [
+      "Wednesday",
+      "Thursday",
+      "Tuesday",
+      "Monday"
+    ],
+    "correctIndex": 2,
+    "explanation": "From 8th Feb 1994 to 8th Feb 1995 is exactly 1 ordinary year (1 odd day). Therefore, Day in 1995 = Day in 1994 + 1. So Wednesday = Day in 1994 + 1 => Day in 1994 = Tuesday."
+  },
+  {
+    "id": 14,
+    "question": "If 1st January 2012 is a Sunday, then which day of the week will the new year be celebrated in 2016?",
+    "options": [
+      "Friday",
+      "Sunday",
+      "Wednesday",
+      "Saturday"
+    ],
+    "correctIndex": 0,
+    "explanation": "From 1st Jan 2012 to 1st Jan 2016: 2012 is a leap year (includes Feb 29) -> 2 odd days; 2013 -> 1 odd day; 2014 -> 1 odd day; 2015 -> 1 odd day. Total odd days = 2 + 1 + 1 + 1 = 5 odd days. Sunday + 5 days = Friday."
+  },
+  {
+    "id": 15,
+    "question": "If 1st April 1963 was a Monday, then which day of the week will 1st August 1959 be?",
+    "options": [
+      "Saturday",
+      "Monday",
+      "Tuesday",
+      "Thursday"
+    ],
+    "correctIndex": 0,
+    "explanation": "Calculating backwards from 1st April 1963 to 1st August 1959 gives a net difference of 2 odd days forward (or 5 backwards). Formula: 1st Aug 1959 = 1 + 2 (Aug) + 0 (1900) + 59 + 14 = 76 mod 7 = 6 (Saturday). 1st April 1963 = 1 + 6 (Apr) + 0 + 63 + 15 = 85 mod 7 = 1 (Monday). Hence, 1st Aug 1959 was Saturday."
+  },
+  {
+    "id": 16,
+    "question": "Which year will have the same calendar as 2002?",
+    "options": [
+      "2008",
+      "2011",
+      "2009",
+      "2013"
+    ],
+    "correctIndex": 3,
+    "explanation": "A year that is 2 years after a leap year (2002 is 2000 + 2) repeats after 11 years: 2002 + 11 = 2013. The odd days between 2002 and 2012 sum to 14 (a multiple of 7), and 2013 is an ordinary year just like 2002."
+  },
+  {
+    "id": 17,
+    "question": "Which year will have the same calendar as 1984?",
+    "options": [
+      "2020",
+      "2008",
+      "2012",
+      "2004"
+    ],
+    "correctIndex": 2,
+    "explanation": "1984 is a Leap Year. A leap year calendar repeats every 28 years (when no non-leap century intervenes). 1984 + 28 = 2012."
+  },
+  {
+    "id": 18,
+    "question": "Which year will have the same calendar as 2092?",
+    "options": [
+      "2098",
+      "2108",
+      "2120",
+      "2132"
+    ],
+    "correctIndex": 3,
+    "explanation": "2092 is a leap year. Normally a leap year repeats in 28 years, but here the century 2100 is NOT a leap year (skipping 1 leap day). Hence the repetition cycle extends to 40 years: 2092 + 40 = 2132 (which starts on Tuesday and is a leap year, exactly matching 2092)."
+  },
+  {
+    "id": 19,
+    "question": "The last day of a century cannot be:",
+    "options": [
+      "Friday",
+      "Wednesday",
+      "Monday",
+      "Tuesday"
+    ],
+    "correctIndex": 3,
+    "explanation": "Odd days in centuries: 100 yrs = 5 (Friday), 200 yrs = 3 (Wednesday), 300 yrs = 1 (Monday), 400 yrs = 0 (Sunday). Therefore, the last day of a century can only be Sun, Mon, Wed, or Fri. It CANNOT be Tuesday, Thursday, or Saturday."
+  },
+  {
+    "id": 20,
+    "question": "The first Republic Day was celebrated on 26th Jan 1950. It was a:",
+    "options": [
+      "Thursday",
+      "Friday",
+      "Monday",
+      "Tuesday"
+    ],
+    "correctIndex": 0,
+    "explanation": "Date (26) + Month Jan (0) + Century 1900s (0) + Year (50) + Leap Years in 50 (12) = 26 + 0 + 0 + 50 + 12 = 88. 88 \u00f7 7 = 12 weeks with Remainder 4. Day Code 4 = Thursday."
+  },
+  {
+    "id": 21,
+    "question": "Five days ago Anita lost phone. 2 days later lodged complaint. 6 days later bought new phone. 4 days later on a Thursday found old phone. On which day did she lose it?",
+    "options": [
+      "Friday",
+      "Saturday",
+      "Thursday",
+      "None of these"
+    ],
+    "correctIndex": 1,
+    "explanation": "Let Lost Day = D. Found Day = D + 2 (complaint) + 6 (bought phone) + 4 (found) = D + 12 days. We know Found Day is Thursday. D + 12 \u2261 Thursday => D + (12 mod 7 = 5) \u2261 Thursday => D = Thursday - 5 days = Saturday!"
+  },
+  {
+    "id": 22,
+    "question": "On which dates of October 1994 did Monday fall?",
+    "options": [
+      "4, 11, 18, 25",
+      "2, 9, 16, 23",
+      "1, 8, 15, 22",
+      "3, 10, 17, 24, 31"
+    ],
+    "correctIndex": 3,
+    "explanation": "Find day of 1st Oct 1994: Date (1) + Oct (0) + Cent (0) + 94 + Leaps (23) = 118 mod 7 = 6 (Saturday). If 1st Oct is Saturday, then 2nd is Sunday and 3rd is Monday! Adding 7 days gives 3, 10, 17, 24, 31."
+  },
+  {
+    "id": 23,
+    "question": "If in a calendar year, there are 541 days and 10 days a week, how many odd days are there?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 0,
+    "explanation": "Odd days are simply the remainder after dividing the total days by the number of days in a week: 541 \u00f7 10 = 54 full weeks with Remainder 1. Therefore, there is 1 odd day."
+  },
+  {
+    "id": 24,
+    "question": "Which of the following statements is/are true? I. 1600 is leap; II. 1400 is leap; III. 2100 is not leap; IV. 2800 is not leap.",
+    "options": [
+      "Only I, III, IV",
+      "Only I, III",
+      "Only II, IV",
+      "Only II, III"
+    ],
+    "correctIndex": 1,
+    "explanation": "Century leap rule: must be divisible by 400. I. 1600 \u00f7 400 = 4 (True). II. 1400 \u00f7 400 = 3.5 (False, not leap). III. 2100 \u00f7 400 = 5.25 (True, not leap). IV. 2800 \u00f7 400 = 7 (False, 2800 IS a leap year). Thus, Only I and III are true."
+  },
+  {
+    "id": 25,
+    "question": "If 17th April 2018 is a Friday, then which day of the week will 4th Sep 2017 be?",
+    "options": [
+      "Thursday",
+      "Wednesday",
+      "Sunday",
+      "Saturday"
+    ],
+    "correctIndex": 0,
+    "explanation": "Count days from 4th Sep 2017 to 17th April 2018: Sep (26) + Oct (31) + Nov (30) + Dec (31) + Jan (31) + Feb (28) + Mar (31) + Apr (17) = 225 days. 225 \u00f7 7 = 32 weeks + 1 odd day. Since moving forward adds 1 day, Friday - 1 day = Thursday."
+  }
+]
